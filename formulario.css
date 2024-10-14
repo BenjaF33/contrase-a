@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 512px;
+    margin: auto;
+    gap: 5px;
+    padding: 3rem;
+    background-color: rgb(240, 245, 140);
+    border-radius: 5px;
+}
+a{
+    color: black;
+}
+#boton{
+    background-color: teal;
+    border-radius: 10px;
+    padding: 3px;
+    border: none;
+    
+}
+h1{
+    margin: auto;
+}
+div{
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
